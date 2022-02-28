@@ -25,15 +25,21 @@ function App() {
           <h2>Skills</h2>
           <ul>
             <li>
-              <span>Frontend</span> | JavaScript, React, Redux, Sass, Styled
-              Components, MaterialUI.
+              <span>Frontend</span>
+              <span>|</span>
+              <span>
+                JavaScript, React, Redux, Sass, Styled Components, MaterialUI.
+              </span>
             </li>
             <li>
-              <span>Backend</span> | Node.js, Express.js, MongoDB.
+              <span>Backend</span>
+              <span>|</span>
+              <span>Node.js, Express.js, MongoDB.</span>
             </li>
             <li>
-              <span>Data</span> | Python, SQL, NumPy, Pandas, Scikit-learn,
-              Keras.
+              <span>Data</span>
+              <span>|</span>
+              <span>Python, SQL, NumPy, Pandas, Scikit-learn, Keras.</span>
             </li>
           </ul>
         </div>

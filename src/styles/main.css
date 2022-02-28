@@ -38,6 +38,8 @@ html {
 }
 body {
   background: var(--bg);
+  margin-left: max(24px, env(safe-area-inset-left));
+  margin-right: max(24px, env(safe-area-inset-right));
 }
 header {
   display: flex;
@@ -77,7 +79,7 @@ div .header > a {
 main {
   margin: 0 auto;
   padding: var(--page-top) 0;
-  width: 640px;
+  max-width: 640px;
 }
 main div {
   opacity: 0;
@@ -121,13 +123,14 @@ ul {
   font-size: 15px;
 }
 li {
-  list-style-type: none;
-  color: #333;
-  padding-left: 0px;
+  display: flex;
 }
-li > span {
-  display: inline-block;
-  width: 62px;
+li > span:nth-child(1) {
+  min-width: 65px;
+}
+li > span:nth-child(2) {
+  min-width: 10px;
+  text-align: center;
 }
 div .mb28 {
   margin-bottom: 28px;
@@ -173,6 +176,19 @@ a:hover {
   to {
     opacity: 1;
     transform: none;
+  }
+}
+
+@media (max-width: 703px) {
+  :root {
+    --page-top: 64px;
+  }
+}
+
+@media (max-width: 640px) {
+  div .header {
+    margin: 0 24px;
+    width: 100%;
   }
 }
 
