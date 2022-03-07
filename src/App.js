@@ -51,7 +51,7 @@ function App() {
             <div className="container">
               <FontAwesomeIcon icon={faChain} size="xs" />
               <a
-                href="https://ecommerce-mern-2022.herokuapp.com/"
+                href="https://store-mern-stack.netlify.app/"
                 target="_blank"
                 rel="noreferrer noopener"
               >
