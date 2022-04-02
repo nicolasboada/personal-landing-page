@@ -110,12 +110,23 @@ function App() {
           <div className="project-container">
             <div className="projectMockup">
               <img
+                className="mockupLaptopImg"
                 src="https://i.ibb.co/B2TG6C4/Macbook-Pro-Mockup-2018-400px.png"
                 alt="project mockup"
               />
               <ProjectScreen
                 img={"https://i.ibb.co/4KCc3fs/store.png"}
                 link={"https://store-mern-stack.netlify.app/"}
+              />
+              <img
+                className="mockupMobileImg"
+                src="https://i.ibb.co/gg2tF0s/iphone-400px.png"
+                alt="project mockup mobile"
+              />
+              <img
+                className="mockupMobileImg screen"
+                src="https://i.ibb.co/hXx8YJz/Captura-de-pantalla-2022-04-02-12-56-36.png"
+                alt="project mockup mobile"
               />
             </div>
             <div className="projectDescription">
@@ -186,6 +197,7 @@ function App() {
           <div className="project-container">
             <div className="projectMockup">
               <img
+                className="mockupLaptopImg"
                 src="https://i.ibb.co/B2TG6C4/Macbook-Pro-Mockup-2018-400px.png"
                 alt="project mockup"
               />
@@ -247,12 +259,23 @@ function App() {
           <div className="project-container">
             <div className="projectMockup">
               <img
+                className="mockupLaptopImg"
                 src="https://i.ibb.co/B2TG6C4/Macbook-Pro-Mockup-2018-400px.png"
                 alt="project mockup"
               />
               <ProjectScreen
                 img={"https://i.ibb.co/3NNZCyn/todo.png"}
                 link={"https://todo-list-app-mui.netlify.app/"}
+              />
+              <img
+                className="mockupMobileImg"
+                src="https://i.ibb.co/gg2tF0s/iphone-400px.png"
+                alt="project mockup mobile"
+              />
+              <img
+                className="mockupMobileImg screen"
+                src="https://i.ibb.co/Z1PYbXM/Captura-de-pantalla-2022-04-02-13-04-41.png"
+                alt="project mockup mobile"
               />
             </div>
             <div className="projectDescription">

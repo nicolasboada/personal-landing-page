@@ -107,6 +107,7 @@ div .headerRight > a:hover {
 div .headerRight > button {
   margin-left: 10px;
   font-size: 12px;
+  display: none;
 }
 main {
   margin: 0 auto;
@@ -218,12 +219,66 @@ div .project-container {
 }
 div .projectMockup {
   position: relative;
+  margin-right: 35px;
 }
-div .projectMockup img {
+div .projectMockup img.mockupLaptopImg {
   width: 200px;
-  margin-right: 20px;
   cursor: pointer;
 }
+div .projectMockup img.mockupMobileImg {
+  position: absolute;
+  bottom: 5px;
+  right: -3px;
+  height: 90px;
+  cursor: pointer;
+  z-index: 3;
+}
+div .projectMockup img.screen {
+  bottom: 7px;
+  right: -0.8px;
+  height: 88px;
+  border-radius: 4px;
+  z-index: 2;
+}
+
+.projectScreen {
+  position: absolute;
+  top: -16px;
+  left: 10.5px;
+  transform: translate(-50%, -50%);
+  width: 158.4px;
+  height: 102px;
+  margin: 20px 10px;
+  border-radius: 2px 2px 0px 0px;
+  /* overflow: hidden; */
+}
+.projectScreen a {
+  width: 158.4px;
+}
+
+.projectScreen-browser {
+  height: 2%;
+  background-color: rgb(243, 242, 242);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  border-radius: 1px 1px 0px 0px;
+  z-index: 2;
+}
+
+.projectScreen-img {
+  width: 158.4px !important;
+  height: 102px;
+  object-fit: fill;
+  border-radius: 0px 0px 1px 1px;
+  /* width: 50%; */
+  /* transition: all 10s ease; */
+}
+
+/* .projectScreen:hover .projectScreen-img {
+  transform: translateY(-100%);
+} */
+
 div .project-container p {
   color: var(--gray);
   font-size: 14px;
@@ -330,6 +385,7 @@ footer > div > a > svg {
   width: 15px;
 }
 
+
 @keyframes enter {
   from {
     opacity: 0;
@@ -387,43 +443,11 @@ footer > div > a > svg {
   textarea {
     width: 90%;
   }
+  div .header {
+    display: flex;
+    justify-content: center;
+  }
 }
-
-.projectScreen {
-  position: absolute;
-  top: -16px;
-  left: 10.5px;
-  transform: translate(-50%, -50%);
-  width: 158.4px;
-  height: 102px;
-  margin: 20px 10px;
-  border-radius: 2px 2px 0px 0px;
-  /* overflow: hidden; */
-}
-.projectScreen a {
-  width: 158.4px;
-}
-
-.projectScreen-browser {
-  height: 2%;
-  background-color: rgb(243, 242, 242);
-  display: flex;
-  align-items: center;
-  position: sticky;
-  z-index: 2;
-}
-
-.projectScreen-img {
-  width: 158.4px !important;
-  height: 102px;
-  object-fit: fill;
-  /* width: 50%; */
-  /* transition: all 10s ease; */
-}
-
-/* .projectScreen:hover .projectScreen-img {
-  transform: translateY(-100%);
-} */
 
 @font-face {
   font-family: "Sohne";
