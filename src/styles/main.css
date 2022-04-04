@@ -72,14 +72,14 @@ header {
   z-index: 4;
 }
 
-div .header-bg {
+/* div .header-bg {
   position: absolute;
   left: 0;
   height: var(--page-top);
   width: 40%;
   z-index: 3;
   background-color: var(--bg);
-}
+} */
 div .header {
   display: flex;
   justify-content: space-between;
