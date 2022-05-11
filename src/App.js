@@ -51,7 +51,7 @@ function App() {
           />
           <Projects
             title={"Face detection webapp"}
-            description={"Webapp to detect faces in images."}
+            description={"Web application to detect faces in images."}
             screenImg={
               "https://i.ibb.co/T4PhGVy/2022-04-12-12-53-57-Window-250x121.png"
             }
