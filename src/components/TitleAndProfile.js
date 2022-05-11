@@ -28,11 +28,11 @@ const TitleAndProfile = ({ handleCLick }) => {
           <span id={"aboutme"}></span>About Me
         </h2>
         <p>
-          Software developer based on Buenos Aires. I specialize in building web
-          applications.
-          <br /> Previously worked as Supply Chain Engineer in different
-          industries.
-          <br />I enjoy learning, solving problems and working on projects.
+          Software developer based on Buenos Aires.
+          <br />
+          Strong problem-solving and communication skills.
+          <br />
+          Passionate about implementing and launching new projects.
         </p>
       </div>
 
